@@ -1,33 +1,260 @@
-# DSA Concepts in C for EduTrack
+Student Record Management System
+A Student Record Management System developed using Data Structures and Algorithms in C with a modern Frontend Web Interface.
+This project combines efficient backend logic implemented in C with an interactive frontend for managing student records.
+🔗 Live Demo: https://vocal-gnome-bdc823.netlify.app/
 
-This directory contains C implementations of Data Structures and Algorithms concepts used in the EduTrack Student Records Management System.
+📌 Overview
+The Student Record Management System is designed to efficiently manage student data such as:
 
-## Files
 
-1. `array.c` - Array implementation for fixed-size storage (e.g., student marks for a semester)
-   - Operations: Initialize students, add marks, calculate subject average, find top student
-   - Complexity: O(1) for access, O(n) for insertion/search
+Student information
 
-2. `linked_list.c` - Linked List implementation for dynamic student registry
-   - Operations: Insert at beginning/end, insert after, delete by ID, search by ID
-   - Complexity: O(1) for insertion at beginning/end, O(n) for search
 
-3. `hash_table.c` - Hash Table implementation for instantaneous record lookups (e.g., by USN)
-   - Operations: Insert, get, remove key-value pairs
-   - Complexity: Average O(1) for insert/search/delete
+Academic records
 
-4. `quicksort.c` - QuickSort implementation for sorting students by CGPA (ranking top performers)
-   - Operations: Sort array of students by CGPA (descending), get top performers
-   - Complexity: Average O(n log n), worst-case O(n^2)
 
-## Usage
+Searching and sorting records
 
-Each file contains commented example usage in a `main()` function at the bottom. Uncomment the `main()` function to test the implementations.
 
-Compile with: `gcc -o program filename.c`
+Updating and deleting student entries
 
-These implementations support the DSA concepts visualized in `src/pages/DSAVisualizations.tsx`:
-- Arrays for fixed-size storage of student marks
-- Linked Lists for dynamic student department registries  
-- Hashing for instantaneous record lookups by USN
-- QuickSort for ranking top performers by CGPA
+
+The backend logic uses core Data Structures and Algorithms (DSA) concepts in C for optimized performance, while the frontend provides a responsive and user-friendly interface.
+
+🚀 Technologies Used
+Backend
+
+
+C Programming Language
+
+
+Data Structures & Algorithms
+
+
+GCC Compiler
+
+
+Frontend
+
+
+HTML5
+
+
+CSS3
+
+
+JavaScript
+
+
+React.js
+
+
+Bootstrap / Tailwind CSS
+
+
+Deployment
+
+
+Netlify
+
+
+
+🧠 Data Structures & Algorithms Used
+1. Arrays
+Used for storing collections of student records.
+Applications
+
+
+Managing fixed-size student data
+
+
+Traversing records efficiently
+
+
+Complexity
+OperationComplexityAccessO(1)SearchO(n)
+
+2. Linked Lists
+Used for dynamic record management.
+Applications
+
+
+Dynamic insertion/deletion of records
+
+
+Efficient memory allocation
+
+
+Complexity
+OperationComplexityInsertionO(1)DeletionO(1)TraversalO(n)
+
+3. Hash Tables
+Used for fast student searching using student IDs.
+Applications
+
+
+Instant student lookup
+
+
+Efficient record retrieval
+
+
+Complexity
+OperationComplexitySearchO(1) AverageInsertO(1) Average
+
+4. Quick Sort
+Used to sort student records efficiently.
+Applications
+
+
+Sorting by student ID
+
+
+Sorting alphabetically
+
+
+Organizing records
+
+
+Complexity
+CaseComplexityBestO(n log n)AverageO(n log n)WorstO(n²)
+
+✨ Features
+Student Management
+
+
+Add Student Records
+
+
+Update Student Details
+
+
+Delete Student Records
+
+
+View All Students
+
+
+Search & Sorting
+
+
+Fast Search using Hash Tables
+
+
+Sorting using Quick Sort
+
+
+Frontend Features
+
+
+Responsive UI Design
+
+
+Interactive Dashboard
+
+
+Real-Time Form Validation
+
+
+User-Friendly Navigation
+
+
+
+📂 Project Structure
+Student-Record-Management-System/│├── backend/│      ├── array.c│   ├── linkedlist.c│   ├── hashtable.c│   ├── quicksort.c│ ├── frontend/│   ├── public/│   ├── src/│   │   ├── components/│   │   ├── pages/│   │   ├── styles/│   │   ├── App.js│   │   └── index.js│   ││   ├── package.json│   └── vite.config.js│├── README.md└── output/
+
+▶️ Frontend Setup
+Install Dependencies
+npm install
+Start Development Server
+npm run de
+
+📖 Working Principle
+
+
+Student data is stored using arrays and linked lists.
+
+
+Hash tables provide fast searching functionality.
+
+
+Quick Sort organizes records efficiently.
+
+
+Frontend communicates with backend logic to display and manage data interactively.
+
+
+
+📊 Time Complexity Analysis
+FeatureAlgorithm/Data StructureComplexityStudent AccessArrayO(1)Search StudentHash TableO(1) AverageInsert StudentLinked ListO(1)Delete StudentLinked ListO(1)Sort RecordsQuick SortO(n log n)
+
+🎯 Learning Outcomes
+This project helps in understanding:
+
+
+Data Structures in C
+
+
+Arrays and Linked Lists
+
+
+Hash Table Implementation
+
+
+Quick Sort Algorithm
+
+
+Frontend Development
+
+
+React Component Architecture
+
+
+Dynamic Memory Allocation
+
+
+
+🌐 Deployment
+Frontend deployed on Netlify.
+🔗 Live Website: https://vocal-gnome-bdc823.netlify.app/
+
+🔮 Future Enhancements
+
+
+Database Integration
+
+
+Authentication System
+
+
+Attendance Management
+
+
+Result Management
+
+
+PDF Report Generation
+
+
+Cloud Storage
+
+
+Admin Dashboard
+
+
+
+📜 License
+This project is developed for educational and academic purposes.
+
+👨‍💻 Author
+Developed as a full-stack Student Record Management System using:
+
+
+C Programming
+
+
+Data Structures & Algorithms
+
+
+React Frontend Development
+
